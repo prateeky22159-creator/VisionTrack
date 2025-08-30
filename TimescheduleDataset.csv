@@ -1,0 +1,47 @@
+TaskID,Phase,Task,AssignedTeam,PlannedStart,PlannedEnd,ActualStart,ActualEnd,PlannedDurationDays,ActualDurationDays,PlannedCompletion%,ActualCompletion%,DelayDays,Status,Variance days
+1,Requirements,Requirement Gathering,BA Team,01-01-2024,07-01-2024,01-01-2024,08-01-2024,7,8,100,100,1,Completed,1
+2,Requirements,Stakeholder Interviews,BA Team,02-01-2024,10-01-2024,02-01-2024,12-01-2024,8,10,100,100,2,Completed,2
+3,Requirements,Requirement Sign-off,BA Team,08-01-2024,12-01-2024,09-01-2024,15-01-2024,4,6,100,100,2,Completed,2
+4,Design,UI Wireframes,UI/UX,13-01-2024,20-01-2024,13-01-2024,21-01-2024,7,8,100,100,1,Completed,1
+5,Design,UX Prototypes,UI/UX,18-01-2024,25-01-2024,19-01-2024,27-01-2024,7,8,100,100,2,Completed,1
+6,Design,Design Review,UI/UX,26-01-2024,28-01-2024,27-01-2024,30-01-2024,2,3,100,100,1,Completed,1
+7,Development,Backend API Setup,Backend,29-01-2024,10-02-2024,30-01-2024,12-02-2024,12,13,100,100,2,Completed,1
+8,Development,Database Schema,Backend,01-02-2024,07-02-2024,02-02-2024,08-02-2024,6,6,100,100,1,Completed,0
+9,Development,Frontend Setup,Frontend,05-02-2024,12-02-2024,06-02-2024,14-02-2024,7,8,100,100,2,Completed,1
+10,Development,API Integration,Backend,13-02-2024,20-02-2024,14-02-2024,23-02-2024,7,9,100,100,3,Completed,2
+11,Development,Frontend Components,Frontend,13-02-2024,25-02-2024,14-02-2024,28-02-2024,12,14,100,100,3,Completed,2
+12,Development,Authentication Module,Backend,15-02-2024,22-02-2024,16-02-2024,24-02-2024,7,8,100,100,2,Completed,1
+13,Development,User Profile UI,Frontend,23-02-2024,28-02-2024,24-02-2024,02-03-2024,5,6,100,100,2,Completed,1
+14,Development,Payment Gateway Integration,Backend,01-03-2024,10-03-2024,02-03-2024,14-03-2024,9,12,100,100,4,Completed,3
+15,Development,Shopping Cart UI,Frontend,05-03-2024,12-03-2024,06-03-2024,14-03-2024,7,8,100,100,2,Completed,1
+16,Development,Search Functionality,Backend,13-03-2024,20-03-2024,14-03-2024,22-03-2024,7,8,100,100,2,Completed,1
+17,Development,Notification Service,Backend,15-03-2024,22-03-2024,16-03-2024,25-03-2024,7,9,100,100,3,Completed,2
+18,Development,Order History UI,Frontend,21-03-2024,27-03-2024,22-03-2024,30-03-2024,6,8,100,100,3,Completed,2
+19,Testing,Unit Testing - Backend,QA,28-03-2024,05-04-2024,29-03-2024,07-04-2024,8,9,100,100,2,Completed,1
+20,Testing,Unit Testing - Frontend,QA,28-03-2024,07-04-2024,29-03-2024,09-04-2024,10,11,100,100,2,Completed,1
+21,Testing,Integration Testing,QA,08-04-2024,15-04-2024,09-04-2024,18-04-2024,7,9,100,100,3,Completed,2
+22,Testing,System Testing,QA,16-04-2024,25-04-2024,17-04-2024,28-04-2024,9,11,100,100,3,Completed,2
+23,Testing,Performance Testing,QA,26-04-2024,02-05-2024,27-04-2024,04-05-2024,6,7,100,100,2,Completed,1
+24,Testing,Regression Testing,QA,03-05-2024,10-05-2024,04-05-2024,12-05-2024,7,8,100,100,2,Completed,1
+25,Testing,Security Testing,QA,05-05-2024,12-05-2024,06-05-2024,14-05-2024,7,8,100,100,2,Completed,1
+26,Deployment,Staging Deployment,DevOps,13-05-2024,15-05-2024,14-05-2024,17-05-2024,2,3,100,100,2,Completed,1
+27,Deployment,Staging Validation,QA,16-05-2024,18-05-2024,17-05-2024,20-05-2024,2,3,100,100,2,Completed,1
+28,Deployment,Production Release,DevOps,19-05-2024,20-05-2024,20-05-2024,23-05-2024,1,3,100,100,3,Completed,2
+29,Maintenance,Bug Fix Sprint 1,Backend,25-05-2024,31-05-2024,26-05-2024,02-06-2024,6,7,100,100,2,Completed,1
+30,Maintenance,Bug Fix Sprint 2,Frontend,01-06-2024,07-06-2024,02-06-2024,09-06-2024,6,7,100,100,2,Completed,1
+31,Maintenance,Bug Fix Sprint 3,Backend,08-06-2024,14-06-2024,09-06-2024,16-06-2024,6,7,100,100,2,Completed,1
+32,Maintenance,Minor Enhancements 1,Frontend,10-06-2024,15-06-2024,11-06-2024,17-06-2024,5,6,100,100,2,Completed,1
+33,Maintenance,Minor Enhancements 2,Frontend,16-06-2024,21-06-2024,17-06-2024,23-06-2024,5,6,100,100,2,Completed,1
+34,Maintenance,Database Optimization,Backend,20-06-2024,25-06-2024,21-06-2024,27-06-2024,5,6,100,100,2,Completed,1
+35,Maintenance,Release Patch v1.1,DevOps,22-06-2024,23-06-2024,23-06-2024,25-06-2024,1,2,100,100,2,Completed,1
+36,Maintenance,Release Patch v1.2,DevOps,29-06-2024,30-06-2024,30-06-2024,02-07-2024,1,2,100,100,2,Completed,1
+37,Maintenance,User Feedback Analysis,BA Team,01-07-2024,05-07-2024,02-07-2024,07-07-2024,4,5,100,100,2,Completed,1
+38,Maintenance,UI Polish Sprint,UI/UX,06-07-2024,12-07-2024,07-07-2024,14-07-2024,6,7,100,100,2,Completed,1
+39,Maintenance,Monitoring Setup,DevOps,10-07-2024,15-07-2024,11-07-2024,17-07-2024,5,6,100,100,2,Completed,1
+40,Maintenance,Minor Bug Fix Round,QA,16-07-2024,20-07-2024,17-07-2024,22-07-2024,4,5,100,100,2,Completed,1
+41,Maintenance,Patch Release v1.3,DevOps,21-07-2024,22-07-2024,22-07-2024,24-07-2024,1,2,100,100,2,Completed,1
+42,Maintenance,UI Improvements,UI/UX,23-07-2024,28-07-2024,24-07-2024,30-07-2024,5,6,100,100,2,Completed,1
+43,Maintenance,Code Refactoring,Backend,29-07-2024,05-08-2024,30-07-2024,07-08-2024,7,8,100,100,2,Completed,1
+44,Maintenance,Release Patch v1.4,DevOps,06-08-2024,07-08-2024,07-08-2024,09-08-2024,1,2,100,100,2,Completed,1
+45,Maintenance,Performance Tuning,Backend,08-08-2024,15-08-2024,09-08-2024,17-08-2024,7,8,100,100,2,Completed,1
+46,Maintenance,UI Usability,,,,,,,,,,,,
