@@ -1,0 +1,51 @@
+Date,Phase,Team,ResourceType,Category,PlannedCost,ActualCost,CumulativePlannedCost,CumulativeActualCost,Variance,Variance%
+01-01-2025,Requirements,UI/UX,Design Effort,Manhours,5000,5200,5000,5200,200,4%
+01-01-2025,Requirements,UI/UX,Software,Tools,2000,1800,7000,7000,-200,-10%
+01-01-2025,Requirements,Backend,Developer Effort,Manhours,6000,6500,13000,13500,500,8%
+01-01-2025,Requirements,Frontend,Developer Effort,Manhours,4000,4200,17000,17700,200,5%
+01-01-2025,Requirements,DevOps,Software,Licenses,1500,1600,18500,19300,100,7%
+01-02-2025,Design,UI/UX,Design Effort,Manhours,7000,7500,25500,26800,500,7%
+01-02-2025,Design,UI/UX,Software,Tools,2500,2800,28000,29600,300,12%
+01-02-2025,Design,Frontend,Developer Effort,Manhours,5000,5400,33000,35000,400,8%
+01-02-2025,Design,Backend,Developer Effort,Manhours,8000,8500,41000,43500,500,6%
+01-02-2025,Design,DevOps,Software,Cloud,3000,3200,44000,46700,200,7%
+01-03-2025,Development,Frontend,Developer Effort,Manhours,12000,13000,56000,59700,1000,8%
+01-03-2025,Development,Frontend,Software,Licenses,2000,2300,58000,62000,300,15%
+01-03-2025,Development,Backend,Developer Effort,Manhours,15000,16000,73000,78000,1000,7%
+01-03-2025,Development,Backend,Software,Tools,4000,4200,77000,82200,200,5%
+01-03-2025,Development,DevOps,Software,Cloud,5000,5200,82000,87400,200,4%
+01-04-2025,Development,Frontend,Developer Effort,Manhours,14000,14500,96000,101900,500,4%
+01-04-2025,Development,Backend,Developer Effort,Manhours,16000,17000,112000,118900,1000,6%
+01-04-2025,Development,UI/UX,Design Effort,Manhours,6000,6500,118000,125400,500,8%
+01-04-2025,Development,DevOps,Ops Effort,Manhours,5500,6000,123500,131400,500,9%
+01-04-2025,Development,QA,QA Effort,Manhours,4000,4500,127500,135900,500,13%
+01-05-2025,Testing,QA,QA Effort,Manhours,8000,8500,135500,144400,500,6%
+01-05-2025,Testing,QA,Software,Tools,3000,3200,138500,147600,200,7%
+01-05-2025,Testing,Backend,Developer Effort,Manhours,7000,7300,145500,154900,300,4%
+01-05-2025,Testing,Frontend,Developer Effort,Manhours,6000,6500,151500,161400,500,8%
+01-05-2025,Testing,DevOps,Ops Effort,Manhours,4000,4200,155500,165600,200,5%
+01-06-2025,Testing,QA,QA Effort,Manhours,9000,9500,164500,175100,500,6%
+01-06-2025,Testing,QA,Software,Licenses,2500,2700,167000,177800,200,8%
+01-06-2025,Testing,Frontend,Developer Effort,Manhours,7000,7400,174000,185200,400,6%
+01-06-2025,Testing,Backend,Developer Effort,Manhours,8000,8500,182000,193700,500,6%
+01-06-2025,Testing,DevOps,Ops Effort,Manhours,3500,3700,185500,197400,200,6%
+01-07-2025,Deployment,DevOps,Ops Effort,Manhours,6000,6500,191500,203900,500,8%
+01-07-2025,Deployment,DevOps,Software,Cloud,8000,8500,199500,212400,500,6%
+01-07-2025,Deployment,QA,QA Effort,Manhours,4000,4200,203500,216600,200,5%
+01-07-2025,Deployment,Frontend,Developer Effort,Manhours,5000,5300,208500,221900,300,6%
+01-07-2025,Deployment,Backend,Developer Effort,Manhours,7000,7500,215500,229400,500,7%
+01-08-2025,Maintenance,DevOps,Ops Effort,Manhours,5000,5200,220500,234600,200,4%
+01-08-2025,Maintenance,DevOps,Software,Cloud,9000,9500,229500,244100,500,6%
+01-08-2025,Maintenance,QA,QA Effort,Manhours,3000,3500,232500,247600,500,17%
+01-08-2025,Maintenance,Backend,Developer Effort,Manhours,6000,6500,238500,254100,500,8%
+01-08-2025,Maintenance,Frontend,Developer Effort,Manhours,4000,4200,242500,258300,200,5%
+01-09-2025,Maintenance,DevOps,Software,Licenses,2500,2800,245000,261100,300,12%
+01-09-2025,Maintenance,Backend,Developer Effort,Manhours,7000,7200,252000,268300,200,3%
+01-09-2025,Maintenance,Frontend,Developer Effort,Manhours,5000,5300,257000,273600,300,6%
+01-09-2025,Maintenance,QA,QA Effort,Manhours,3500,3800,260500,277400,300,9%
+01-09-2025,Maintenance,UI/UX,Design Effort,Manhours,2000,2200,262500,279600,200,10%
+01-10-2025,Maintenance,DevOps,Ops Effort,Manhours,9500,10000,272000,289600,500,5%
+01-10-2025,Maintenance,Backend,Developer Effort,Manhours,6500,7000,278500,296600,500,8%
+01-10-2025,Maintenance,Frontend,Developer Effort,Manhours,4800,5100,283300,301700,300,6%
+01-10-2025,Maintenance,QA,QA Effort,Manhours,3600,3900,286900,305600,300,8%
+01-10-2025,Maintenance,UI/UX,Software,Tools,1500,1600,288400,307200,100,7%
