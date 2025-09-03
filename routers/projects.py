@@ -1,9 +1,10 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from ..database import get_db
-from .. import crud, schemas
+from database import get_db
+import crud
+import schemas
 
-router = APIRouter(prefix="/projects", tags=["projects"])
+router= APIRouter(prefix="/projects", tags=["projects"])
 
 @router.post("", response_model=schemas.ProjectRead)
 def create_project(payload: schemas.ProjectCreate, db: Session = Depends(get_db)):

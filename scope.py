@@ -1,9 +1,10 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
-from ..database import get_db
-from .. import crud, schemas
+from database import get_db
+import crud
+import schemas
 
-router = APIRouter(prefix="/scope", tags=["scope"])
+router= APIRouter(prefix="/scope", tags=["scope"])
 
 @router.post("", response_model=schemas.ScopeChangeRead)
 def create_scope_change(payload: schemas.ScopeChangeCreate, db: Session = Depends(get_db)):

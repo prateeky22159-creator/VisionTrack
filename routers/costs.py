@@ -1,9 +1,10 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
-from ..database import get_db
-from .. import crud, schemas
+from database import get_db
+import crud
+import schemas
 
-router = APIRouter(prefix="/costs", tags=["costs"])
+router= APIRouter(prefix="/costs", tags=["costs"])
 
 @router.post("", response_model=schemas.CostRead)
 def create_cost(payload: schemas.CostCreate, db: Session = Depends(get_db)):
