@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 from config import settings
 
-auth = (settings.jira_user, settings.jira_token)
+auth = (settings.jira_user, settings.jira_api_token)
 base_url = settings.jira_url
 
 def fetch_jira_issues(project_key: str, max_results: int = 100):

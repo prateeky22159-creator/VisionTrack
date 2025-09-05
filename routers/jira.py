@@ -7,7 +7,7 @@ router = APIRouter(prefix="/jira", tags=["Jira"])
 # Jira API Authentication
 JIRA_BASE_URL = settings.jira_url
 JIRA_USER = settings.jira_user
-JIRA_API_TOKEN = settings.jira_token
+JIRA_API_TOKEN = settings.jira_api_token
 
 @router.get("/issues/{project_key}")
 def get_jira_issues(project_key: str, max_results: int = 10):
